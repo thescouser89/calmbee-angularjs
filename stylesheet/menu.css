@@ -1,0 +1,51 @@
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar .navbar-default .navbar-nav .nav li a .active {
+    background-color: #3D566E;
+  }
+
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+    background-color: #34495E;
+    border-top: 1px solid #54677A;
+    border-bottom: 1px solid #142638;
+    font-family: 'Open Sans', 'sans-serif';
+    padding: 0px;
+    font-size: 13px;
+    font-style: normal;
+    color: #FFFFFF;
+  }
+
+  .sidebar-nav .navbar li a {
+    line-height: 20px;
+    padding: 15px;
+    color: #FFFFFF;
+  }
+
+  /* add some padding to the right of an icon in the sidebar */
+  .sidebar-nav .navbar li a i {
+    padding-right: 10px;
+  }
+
+  .sidebar-nav .navbar-default .navbar-nav > .active > a {
+    color: #FFFFFF;
+    background-color: #2C3E50;
+  }
+
+  .sidebar-nav .navbar-default .navbar-nav > li > a:hover,
+  .sidebar-nav .navbar-default .navbar-nav > li > a:active {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+    outline: medium none;
+    color: #FFF;
+    background-color: #3D566E;
+  }
+}
